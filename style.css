@@ -38,6 +38,22 @@ td:hover {
 .animate-scale {
   animation: scale-in 0.5s;
 }
+#reset-btn{
+    display: flex;
+    justify-content: center;
+}
+#reset {
+    /* padding: 10px 25px; */
+    background: #f3e7f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2';
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+
 
 @keyframes fade-in {
   from {

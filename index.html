@@ -6,36 +6,41 @@
     <title>Tic-Tac-Toe Game</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
     <h1>Tic-Tac-Toe</h1>
 
     <table class="animate-fade animate-scale">
         <tr>
-            <td id="box0"  onclick="handleClick(0)">
+            <td id="box0"  onclick="handleClick(0);playAudio()">
             <p id="demo0"></p></td>
-            <td id="box1" onclick="handleClick(1)">
+            <td id="box1" onclick="handleClick(1);playAudio()">
             <p id="demo1"></p></td>
-            <td id="box2" onclick="handleClick(2)">
+            <td id="box2" onclick="handleClick(2);playAudio()">
             <p id="demo2"></p></td>
         </tr>
         <tr>
-            <td id="box3" onclick="handleClick(3)">
+            <td id="box3" onclick="handleClick(3);playAudio()">
             <p id="demo3"></p></td>
-            <td id="box4" onclick="handleClick(4)">
+            <td id="box4" onclick="handleClick(4);playAudio()">
             <p id="demo4"></p></td>
-            <td id="box5" onclick="handleClick(5)">
+            <td id="box5" onclick="handleClick(5);playAudio()">
             <p id="demo5"></p></td>
         </tr>
         <tr>
-            <td id="box6" onclick="handleClick(6)">
+            <td id="box6" onclick="handleClick(6);playAudio()">
             <p id="demo6"></p></td>
-            <td id="box7" onclick="handleClick(7)">
+            <td id="box7" onclick="handleClick(7);playAudio()">
             <p id="demo7"></p></td>
-            <td id="box8" onclick="handleClick(8)">
+            <td id="box8" onclick="handleClick(8);playAudio()">
             <p id="demo8"></p></td>
         </tr>
     </table>
+    
+    <div id="reset-btn">
+        <button id="reset" onclick="location.reload()">Reset</button>
+    </div>
     <div class="message"></div>
 
 </body>
